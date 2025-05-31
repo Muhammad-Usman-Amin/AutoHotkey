@@ -1,6 +1,7 @@
 #Requires AutoHotkey v2.0
 ::ahk::AutoHotkey
 ::pet::petitioner
+::pets::petitioners
 ::petn::petition
 ::resp::respondent
 ::ress::respondents
@@ -14,18 +15,27 @@
 ::ord::order
 ::exp::ex-parte
 ::exe::execution
+::dpo::District Police Officer, District Dir Lower
 ::jud::judgment
 ::cou::counsel
 ::att::attorney
 ::jd::judgment debtor
 ::jds::judgment debtors
 ::dh::decree holder
+::crc::CRC
+::ce::cross-examination
+::ec::examination-in-chief
+::وغ::وغیرہ
 ::dhs::decree holders
 ::arg::arguments
 ::mis::miscellaneous
 ::doc::document
 ::app::application
 ::tf::therefore,
+::hoe::however,
+::btm::be that as it may,
+::dg::Director General
+::hm::Head Master
 ::pr::present
 ::rep::representative
 ::reps::representatives
@@ -33,13 +43,20 @@
 ::posn::position
 ::mf::mala fide
 ::pf::prima facie
+::gps::Government Primary School
 ::lea::learned
 ::aug::August Supreme Court of Pakistan
+::hsc::Hon'ble Superior Courts
+::v::Vs
+::ip::it is placed on file
+::ia::it is accepted
 ::hon::Hon'ble
+::phc::Hon'ble Peshawar High Court, Peshawar
+::phcm::Hon'ble Peshawar High Court, Peshawar/Mingora Bench, Swat
+::cj::Civil Judge
 ::inj::injunction
 ::perm::permanent
 ::perp::perpetual
-::honp::Hon'ble Peshawar High Court, Peshawar
 ::wit::witness
 ::wits::witnesses
 ::rev::reveals
@@ -58,37 +75,129 @@
 ::reqg::requisitioning
 ::sol::solemnized
 ::pw::PW
+::pw1::PW-1
+::pw2::PW-2
+::pw3::PW-3
+::pw4::PW-4
+::pw5::PW-5
+::pw6::PW-6
+::pw7::PW-7
+::pw8::PW-8
+::pw9::PW-9
+::pw10::PW-10
 ::dw::DW
+::dw1::DW-1
+::dw2::DW-2
+::dw3::DW-3
+::dw4::DW-4
+::dw5::DW-5
+::dw6::DW-6
+::dw7::DW-7
+::dw8::DW-8
+::dw9::DW-9
+::dw10::DW-10
+::exh::exhibits
 ::rec::received
 ::aga::against
 ::fai::failed
 ::atte::attendance
+::pta::Parties through attorneys presetn.
+::pip::parties in person present.
+::psr::in this respect, statement of both the parties recorded and placed on file.
+::pwc::parties with counsel present.
+::ddl::District Dir Lower
+::ddl1::District Dir Lower at Timergara
+::tb::Tehsil Balambat
+::tk::Tehsil Khal
+::tt::Tehsil Timergara
+::ghss::Government Higher Secondary School
+::adn::Assistant Director NADRA
+::dc::Deputy Commissioner
+::ac::Assistant Commissioner
+::dl::Dir Lower
+::tmg::Timergara
+::dist::District
+::gms::Government Middle School
+::bise::Board of Intermediate and Secondary Education
+::no.::No.
+::expw::ExPW
+::exdw::ExDW
+::pak::Pakistan
+::pesh::Peshawar
+::sch::School
+::mu::Muhammad
+::teh::Tehsil
+::comm::commission
+::comr::Commissioner
+::loc::local commissioner
+::ep1::ExPW-1/1
+::ep2::ExPW-2/1
+::ep3::ExPW-3/1
+::ep4::ExPW-4/1
+::ep5::ExPW-5/1
+::ed1::ExDW-1/1
+::ed2::ExDW-2/1
+::ed3::ExDW-3/1
+::ed4::ExDW-4/1
+::ed5::ExDW-5/1
+::cpc::CPC
+::lc::learned counsel
 ::thr::through
 ::inc::inconvenience
 ::conv::convenience
 ::osn::order sheet No.
 ::mai::maintenance
+::maint::maintainability
 ::adi::ad interim
 ::wak::wakalatnama
 ::whe::whether
 ::dis::dissolution
-::dpi::From the divergent pleadings, the following issues are herby framed:
+::dpi::From the divergent pleadings, the following issues are hereby framed:
 ::ws::written statement
+::sta::statement
 ::os::order sheet
 ::n1::No.1
 ::n2::No.2
 ::n3::No.3
+::n4::No.4
+::n5::No.5
+::n6::No.6
+::n7::No.7
+::n8::No.8
+::n9::No.9
+::n10::No.10
+::n11::No.11
 ::reqd::requisitioned
 ::req::request
 ::ptr::Pre-trial reconciliation
-::bew::between
+::potr::post-trial reconciliation
+::subm::submitted
+::dgn::Director General NADRA
+::kpk::Khyber Pakhtunkhwa
+::dist::District
+::str::strength
+::pab::presence as before
+::atta::attachment
+::acc::accepted
+::k::Khan
+::e::etc.
+::m::Mst.
+::bn::between
 ::nad::NADRA
 ::respe::respectively
 ::cons::consequently
 ::nad1::Chairman NADRA Government of Pakistan, State Bank of Pakistan Building, Shahrah-e-Jamhuriat, G-5/2, Islamabad.
 ::nad2::Director General NADRA, Khyber Pakhtunkhwa, Head Office, EOBI Building, Phase-V, Hayatabad, Peshawar.
 ::nad3::Assistant Director NADRA, District Dir Lower at Timergara.
+::nad1a::9.	Chairman NADRA/Registrar General NADRA at State Bank Building, F-10, Islamabad.
+::nad2a::Director General NADRA Khyber Pakhtunkhwa at Phase-V, Hayatabad, Peshawar.
+::gop::Government of Pakistan
 ::cnic::CNIC
+::dsj::Hon'ble District & Sessions Judge
+::adj:: Hon'ble Additional District & Sessions Judge
+::dsjd::Hon'ble District & Sessions Judge, Dir Lower
+::adj1::Hon'ble Additional District & Sessions Judge-I, Dir Lower at Timergara
+::adj2::Hon'ble Additional District & Sessions Judge-II, Dir Lower at Timergara
 ::scj::Senior Civil Judge
 ::cjp::Chief Justice of Pakistan
 ::appi::سائیل کو بنائے درخواست حاصل نہ ہے۔ درخواست سائیل بشکل مرجوعہ ناقص و غلط ہے۔ سائیل بوجہ قول و فعل خود مانع درخواست ہے۔ درخواست سسائیل اندر میعاد نہیں ہے۔ درخواست سائیل بمرحلہ ابتدائی قابل اخراج ہے۔
@@ -99,6 +208,13 @@
 ::insg::instituting
 ::nadra::NADRA
 ::gov::government
+::evi::evidence
+::bpf::be put up for
+::uom::University of Malakand
+::ghs::Government High School
+::wpf::West Pakistan Family Court Act, 1964
+::bb::Bibi
+
 
 ; ^q::ExitApp
 	return
