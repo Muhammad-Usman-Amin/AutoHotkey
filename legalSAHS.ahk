@@ -6,10 +6,22 @@
 ::resp::respondent
 ::ress::respondents
 ::pla::plaintiff
+::p1::plaintiff No.1
+::p2::plaintiff No.2
+::p3::plaintiff No.3
+::p4::plaintiff No.4
+::p5::plaintiff No.5
 ::pls::plaintiffs
 ::def::defendant
+::d1::defendant No.1
+::d2::defendant No.2
+::d3::defendant No.3
+::d4::defendant No.4
+::d5::defendant No.5
+
 ::defs::defendants
 ::ct::court
+::avo::At the very outset,
 ::tem::temporary
 ::injunction::injunction
 ::ord::order
@@ -33,6 +45,7 @@
 ::app::application
 ::tf::therefore,
 ::hoe::however,
+::hr::however,
 ::btm::be that as it may,
 ::dg::Director General
 ::hm::Head Master
@@ -50,10 +63,17 @@
 ::v::Vs
 ::ip::it is placed on file
 ::ia::it is accepted
+::gwa::Guardian and Wards Act, 1890
 ::hon::Hon'ble
 ::phc::Hon'ble Peshawar High Court, Peshawar
 ::phcm::Hon'ble Peshawar High Court, Peshawar/Mingora Bench, Swat
 ::cj::Civil Judge
+::cj1::Civil Judge-I
+::cj2::Civil Judge-II
+::cj3::Civil Judge-III
+::cj4::Civil Judge-IV
+::cj5::Civil Judge-V
+::cj6::Civil Judge-VI
 ::inj::injunction
 ::perm::permanent
 ::perp::perpetual
@@ -118,7 +138,7 @@
 ::tmg::Timergara
 ::dist::District
 ::gms::Government Middle School
-::bise::Board of Intermediate and Secondary Education
+::bise::Board of Intermediate and Secondary Education Malakand at Chakdara
 ::no.::No.
 ::expw::ExPW
 ::exdw::ExDW
@@ -129,7 +149,8 @@
 ::teh::Tehsil
 ::comm::commission
 ::comr::Commissioner
-::loc::local commissioner
+::loc::local 
+::cr::commission report
 ::ep1::ExPW-1/1
 ::ep2::ExPW-2/1
 ::ep3::ExPW-3/1
@@ -176,7 +197,7 @@
 ::kpk::Khyber Pakhtunkhwa
 ::dist::District
 ::str::strength
-::pab::presence as before
+::pab::Presence as before
 ::atta::attachment
 ::acc::accepted
 ::k::Khan
@@ -209,11 +230,26 @@
 ::nadra::NADRA
 ::gov::government
 ::evi::evidence
-::bpf::be put up for
+::rs::Rs
+::ftc::File to come up for 
+::nadc::that he has not entered the particulars of plaintiff himself and the officials who entered the same are not produced as witnesses before this court.
+::bpu::be put up for
 ::uom::University of Malakand
 ::ghs::Government High School
 ::wpf::West Pakistan Family Court Act, 1964
 ::bb::Bibi
+::ag::against
+::adv::advocate
+::pri::Principal
+::opd::(OPD)
+::opp::(OPP)
+::opr::(OPR)
+::م::مسماۃ
+::بب::بی بی
+::بن::بنام
+::وگ::وغیرہ
+::ک::خان
+
 
 
 ; ^q::ExitApp
