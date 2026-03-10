@@ -5,24 +5,78 @@
 ::petn::petition
 ::resp::respondent
 ::ress::respondents
+::pr1::petitioner No.1
+::pr2::petitioner No.2
+::pr3::petitioner No.3
+::pr4::petitioner No.4
+::pr5::petitioner No.5
+::pr6::petitioner No.6
+::pr7::petitioner No.7
+::pr8::petitioner No.8
+::pr9::petitioner No.9
+::pr10::petitioner No.10
+::pr11::petitioner No.11
+::pr12::petitioner No.12
+::pr13::petitioner No.13
+::pr14::petitioner No.14
+::pr15::petitioner No.15
 ::pla::plaintiff
 ::p1::plaintiff No.1
 ::p2::plaintiff No.2
 ::p3::plaintiff No.3
 ::p4::plaintiff No.4
 ::p5::plaintiff No.5
+::p6::plaintiff No.6
+::p7::plaintiff No.7
+::p8::plaintiff No.8
+::p9::plaintiff No.9
+::p10::plaintiff No.10
+::p11::plaintiff No.11
+::p12::plaintiff No.12
 ::pls::plaintiffs
+::pe::plaintiff is entitled
+::de::defendant is entitled
+::p1e::plaintiff No.1 is entitled
+::p2e::plaintiff No.2 is entitled
+::p3e::plaintiff No.3 is entitled
+::d1e::defendant No.1 is entitled
+::d2e::defendant No.2 is entitled
 ::def::defendant
 ::d1::defendant No.1
 ::d2::defendant No.2
 ::d3::defendant No.3
 ::d4::defendant No.4
 ::d5::defendant No.5
+::d6::defendant No.6
+::d7::defendant No.7
+::d8::defendant No.8
+::d9::defendant No.9
+::d10::defendant No.10
+::d11::defendant No.11
+::d12::defendant No.12
+::d13::defendant No.13
+::d14::defendant No.14
+::d15::defendant No.15
 ::defs::defendants
+::r1::respondent No.1
+::r2::respondent No.2
+::r3::respondent No.3
+::r4::respondent No.4
+::r5::respondent No.5
+::r6::respondent No.6
+::r7::respondent No.7
+::r8::respondent No.8
+::r9::respondent No.9
+::r10::respondent No.10
+::r11::respondent No.11
+::r12::respondent No.12
+::r13::respondent No.13
+::r14::respondent No.14
+::r15::respondent No.15
+::csr::As the defendant is residing out district; therefore, counsel for plaintiff is directed to submit registry envelopes.
 ::ct::court
 ::avo::At the very outset,
 ::tem::temporary
-::injunction::injunction
 ::ord::order
 ::exp::ex-parte
 ::exe::execution
@@ -51,7 +105,8 @@
 ::hr::however,
 ::btm::be that as it may,
 ::dg::Director General
-::hm::Head Master
+::hm::Headmaster
+::th::that
 ::pr::present
 ::rep::representative
 ::reps::representatives
@@ -62,6 +117,9 @@
 ::gps::Government Primary School
 ::lea::learned
 ::asc::August Supreme Court of Pakistan
+::scp::Supreme Court of Pakistan
+::ij::invoking jurisdiction
+::jur::jurisdiction
 ::hsc::Hon'ble Superior Courts
 ::v::Vs
 ::ip::it is placed on file
@@ -70,6 +128,22 @@
 ::hon::Hon'ble
 ::phc::Hon'ble Peshawar High Court, Peshawar
 ::phcm::Hon'ble Peshawar High Court, Peshawar/Mingora Bench, Swat
+::rs1::Rs.1,000/-
+::rs2::Rs.2,000/-
+::rs3::Rs.3,000/-
+::rs4::Rs.4,000/-
+::rs5::Rs.5,000/-
+::rs6::Rs.6,000/-
+::rs7::Rs.7,000/-
+::rs8::Rs.8,000/-
+::rs9::Rs.9,000/-
+::rs10::Rs.10,000/-
+::rs15::Rs.15,000/-
+::rs20::Rs.20,000/-
+::rs25::Rs.25,000/-
+::rs30::Rs.30,000/-
+::rs40::Rs.40,000/-
+::rs50::Rs.50,000/-
 ::cj::Civil Judge
 ::cj1::Civil Judge-I, Dir Lower at Timergara
 ::cj2::Civil Judge-II, Dir Lower at Timergara
@@ -78,16 +152,25 @@
 ::cj5::Civil Judge-V, Dir Lower at Timergara
 ::cj6::Civil Judge-VI, Dir Lower at Timergara
 ::inj::injunction
+::ti::temporary injunction
 ::perm::permanent
 ::perp::perpetual
 ::wit::witness
 ::wits::witnesses
 ::rev::reveals
-::frt::file reveals that
+::btc::before the court
+::frt::File reveals that
+::fwr::File would reveal that
+::fws::File would show that
+::ffrt::File further reveal that
+::ffwr::File further would reveal that
+::arr::the available record would reveal that
+::ars::the available record would show that
+::ava::available
 ::proc::proceedings
 ::prs::permission
 ::ment::mentioned
-::frr::File of this court be consigned to record room after its necessary completion, compilation with scanning.
+::frr::File of this court be consigned to record room after its necessary completion & compilation with scanning.
 ::cfj::counsel for judgment debtor
 ::cfd::counsel for decree holder
 ::cfp::counsel for plaintiff
@@ -129,8 +212,9 @@
 ::pta::Parties through attorneys presetn.
 ::pip::parties in person present.
 ::psr::in this respect, statement of both the parties recorded and placed on file.
-::pwc::parties with counsel present.
+::pwc::Parties with their respective counsel are in attendance.
 ::ddl::District Dir Lower
+::ddu::District Dir Upper
 ::ddl1::District Dir Lower at Timergara
 ::tb::Tehsil Balambat
 ::bal::Balambat
@@ -193,12 +277,15 @@
 ::conv::convenience
 ::osn::order sheet No.
 ::mai::maintenance
+::mm::minor maintenance
+::imm::interim minor maintenance
 ::maint::maintainability
 ::adi::ad interim
 ::wak::wakalatnama
 ::whe::whether
 ::dis::dissolution
-::dpi::From the divergent pleadings, the following issues are hereby framed:
+::sop::SOPs
+::dpi::Pleadings are complete; hence, from the divergent pleadings, the following issues are hereby framed:
 ::ws::written statement
 ::wr::written reply
 ::re::replication
@@ -216,6 +303,15 @@
 ::n9::No.9
 ::n10::No.10
 ::n11::No.11
+::n12::No.12
+::n13::No.13
+::n14::No.14
+::n15::No.15
+::n16::No.16
+::n17::No.17
+::n18::No.18
+::n19::No.19
+::n20::No.20
 ::reqd::requisitioned
 ::req::request
 ::ptr::Pre-trial reconciliation
@@ -231,14 +327,16 @@
 ::k::Khan
 ::e::etc.
 ::m::Mst.
+::mc::M
 ::bn::between
+::bp::between the parties
 ::nad::NADRA
 ::respe::respectively
 ::cons::consequently
 ::nad1::Chairman NADRA Government of Pakistan, State Bank of Pakistan Building, Shahrah-e-Jamhuriat, G-5/2, Islamabad.
 ::nad2::Director General NADRA, Khyber Pakhtunkhwa, Head Office, EOBI Building, Phase-V, Hayatabad, Peshawar.
 ::nad3::Assistant Director NADRA, District Dir Lower at Timergara.
-::nad1a::9.	Chairman NADRA/Registrar General NADRA at State Bank Building, F-10, Islamabad.
+::nad1a::Chairman NADRA/Registrar General NADRA at State Bank Building, F-10, Islamabad.
 ::nad2a::Director General NADRA Khyber Pakhtunkhwa at Phase-V, Hayatabad, Peshawar.
 ::gop::Government of Pakistan
 ::cnic::CNIC
@@ -258,16 +356,19 @@
 ::nadra::NADRA
 ::gov::government
 ::evi::evidence
-::rs::Rs
+::rs::Rs.
 ::ftc::File to come up for 
 ::nadc::that he has not entered the particulars of plaintiff himself and the officials who entered the same are not produced as witnesses before this court.
 ::bpu::be put up for
 ::uom::University of Malakand
 ::ghs::Government High School
-::wpf::West Pakistan Family Court Act, 1964
-::mfl::Muslim Family Law Act, 1964
+::wpf::West Pakistan Family Courts Act, 1964
+::mfc::Muslim Family Courts Act, 1964
+::mfl::Muslim Family Laws Ordinance, 1961
+::sbc::submitted before the court
 ::bb::Bibi
 ::ag::against
+::ry::respectively
 ::adv::advocate
 ::pri::Principal
 ::opd::(OPD)
@@ -276,13 +377,18 @@
 ::cer::certificate
 ::gdc::Government Degree College
 ::lbo::Local bar is observing no court business today.
+::ps::police station
+::sp::suit property
+::prop::property
 ::م::مسماۃ
 ::بب::بی بی
 ::بن::بنام
 ::وگ::وغیرہ
+::مد::مدعاعلیہ
 ::ک::خان
 ::ہت::ہیڈ ٹیچر وغیرہ
 ::مھ::محمد
+::ارمت::آراضی متدعویہ
 ::dissolutionOfNikah::
 (
 decreed ex-parte in the following manner:
